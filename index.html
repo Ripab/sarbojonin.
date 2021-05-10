@@ -1,0 +1,863 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/image/favicon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/slick.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsiver.css">
+
+    <title>SARBOJONIN</title>
+  </head>
+  <body>
+    <!-- Loader Box HTML Start -->
+    <div class="loader-box">
+      <div></div>
+    </div>
+    <!-- Loader Box HTML End -->
+
+    <!-- Top Bar Area HTML Start -->
+    <div class="top-bar-area">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-2 col-lg-3 text-center">
+            <a class="logo-area" href="index.html"><img src="assets/image/logo-1.png" alt="Logo"></a>
+          </div>
+          <div class="col-xl-5 col-lg-5">
+            <div class="search-bar">
+              <input type="text" placeholder="Search for products (e.g. eggs, milk, potato)">
+              <button><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-4">
+            <ul class="top-right text-end"> 
+              <li style="border-left: 1px solid rgba(182, 210, 251, 0.25);"><a href="cart-list.html"><i class="fas fa-cart-plus"></i></a></li>
+              <li><a href="wish-list.html">Wishlist</a></li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="wish-list.html">Become a Seller</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Top Bar Area HTML End -->
+    
+    <!-- Vertical Menu Wrapper HTML Start -->
+    <nav class="vertical-menu-wrapper">
+      <div class="vertical-menu-logo">
+        <span class="open-menu-btn"><hr><hr><hr></span>
+      </div>
+      <ul class="vertical-menu">
+        <li><a href="category.html"><img src="assets/image/nav-12.png" alt="">Offers</a> </li>
+        <li><a href="category.html"><img src="assets/image/nav-11.png" alt="">Food Aid</a> </li>
+        <hr>
+        <li><img src="assets/image/nav-1.png" alt="nav"><a href="category.html">Popular</a> </li>
+        <li><img src="assets/image/nav-2.png" alt="nav"><a href="category.html">Hygiene</a> </li>
+        <li><img src="assets/image/nav-3.png" alt="nav"><a href="category.html">Ramadan</a> </li>
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="assets/image/nav-4.png" alt="nav">Baby Care
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="category.html">Baby Care 1</a></li>
+            <li><a class="dropdown-item" href="category.html">Baby Care 2</a></li>
+            <li><a class="dropdown-item" href="category.html">Baby Care 3</a></li>
+            <li><a class="dropdown-item" href="category.html">Baby Care 4</a></li>
+            <li><a class="dropdown-item" href="category.html">Baby Care 5</a></li>
+            <li><a class="dropdown-item" href="category.html">Baby Care 6</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="assets/image/nav-5.png" alt="nav">Pet Care
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="category.html">Pet Care 1</a></li>
+            <li><a class="dropdown-item" href="category.html">Pet Care 2</a></li>
+            <li><a class="dropdown-item" href="category.html">Pet Care 3</a></li>
+            <li><a class="dropdown-item" href="category.html">Pet Care 4</a></li>
+            <li><a class="dropdown-item" href="category.html">Pet Care 5</a></li>
+            <li><a class="dropdown-item" href="category.html">Pet Care 6</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="assets/image/nav-6.png" alt="nav">Food
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="category.html">Food 1</a></li>
+            <li><a class="dropdown-item" href="category.html">Food 2</a></li>
+            <li><a class="dropdown-item" href="category.html">Food 3</a></li>
+            <li><a class="dropdown-item" href="category.html">Food 4</a></li>
+            <li><a class="dropdown-item" href="category.html">Food 5</a></li>
+            <li><a class="dropdown-item" href="category.html">Food 6</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="assets/image/nav-7.png" alt="nav">Home & Cleaning
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="category.html">Home & Cleaning 1</a></li>
+            <li><a class="dropdown-item" href="category.html">Home & Cleaning 2</a></li>
+            <li><a class="dropdown-item" href="category.html">Home & Cleaning 3</a></li>
+            <li><a class="dropdown-item" href="category.html">Home & Cleaning 4</a></li>
+            <li><a class="dropdown-item" href="category.html">Home & Cleaning 5</a></li>
+            <li><a class="dropdown-item" href="category.html">Home & Cleaning 6</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="assets/image/nav-8.png" alt="nav">Office Product
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="category.html">Office Product 1</a></li>
+            <li><a class="dropdown-item" href="category.html">Office Product 2</a></li>
+            <li><a class="dropdown-item" href="category.html">Office Product 3</a></li>
+            <li><a class="dropdown-item" href="category.html">Office Product 4</a></li>
+            <li><a class="dropdown-item" href="category.html">Office Product 5</a></li>
+            <li><a class="dropdown-item" href="category.html">Office Product 6</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="assets/image/nav-9.png" alt="nav">Beauty & Health
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="category.html">Beauty & Health 1</a></li>
+            <li><a class="dropdown-item" href="category.html">Beauty & Health 2</a></li>
+            <li><a class="dropdown-item" href="category.html">Beauty & Health 3</a></li>
+            <li><a class="dropdown-item" href="category.html">Beauty & Health 4</a></li>
+            <li><a class="dropdown-item" href="category.html">Beauty & Health 5</a></li>
+            <li><a class="dropdown-item" href="category.html">Beauty & Health 6</a></li>
+          </ul>
+        </div>
+        <li><img src="assets/image/nav-10.png" alt="nav"><a href="category.html">Jusie</a> </li>
+      </ul>
+    </nav>
+    <!-- Vertical Menu Wrapper HTML End -->
+
+    <!-- Content Wrapper HTML Start -->
+    <div class="content-wrapper">
+      <div class="content">
+
+        <!-- Hero Area HTML Start -->
+        <div class="banner-area">
+            <div class="container">
+                <div class="hero-text">
+                    <h1>Groceries delivered in 1 hour</h1>
+                    <div class="search-bar">
+                      <input type="text" placeholder="Serach..">
+                      <button><i class="fas fa-search"></i></button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero Area HTML End -->
+
+        <!-- Offer Area HTML Start -->
+        <section class="offer-area section-pd">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-4 col-md-6">
+                      <div class="offer-item">
+                          <a href=""><img src="assets/image/offer-1.jpg" alt="Offer"></a>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                      <div class="offer-item">
+                          <a href=""><img src="assets/image/offer-2.jpg" alt="Offer"></a>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                      <div class="offer-item">
+                          <a href=""><img src="assets/image/offer-3.jpg" alt="Offer"></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </section>
+        <!-- Offer Area HTML End -->
+
+        <!-- Product Area HTML Start -->
+        <section class="product-area section-pd">
+          <div class="container">
+            <div class="section-title">
+              <h3>Popular Products</h3>
+            </div>
+            <div class="popular-item wow fadeInUp">
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-2.png" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-1.jpg" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-3.jpg" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-4.jpg" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-2.png" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-1.jpg" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-3.jpg" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-4.jpg" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-5.jpg" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-2.png" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-1.jpg" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-3.jpg" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-4.jpg" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-5.jpg" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Product Area HTML End -->
+
+        <!-- Discount Area HTML Start -->
+        <section class="discount-area section-pd">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6 col-md-6 pe-0">
+                      <div class="discount-img">
+                          <img style="width: 100%; height: 240px;" src="assets/image/discount-1.jpg" alt="discount">
+                      </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 ps-0">
+                      <div class="discount-img">
+                          <img style="width: 100%; height: 240px;" src="assets/image/discount-2.jpg" alt="discount">
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </section>
+        <!-- Discount Area HTML End -->
+
+        <!-- Product Area HTML Start -->
+        <section class="product-area section-padding-2">
+          <div class="container">
+            <div class="section-title">
+              <h3>Popular Products</h3>
+            </div>
+            <div class="popular-item wow fadeInUp">
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-2.png" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-1.jpg" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-3.jpg" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-4.jpg" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-2.png" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-1.jpg" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-3.jpg" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-4.jpg" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-5.jpg" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-2.png" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-1.jpg" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-3.jpg" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-4.jpg" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+              <div class="slide">
+                  <div class="img-area">
+                    <img src="assets/image/item-5.jpg" alt="Cetagory">
+                  </div>
+                  <ul class="icon-area">
+                    <li><a href=""><i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href=""><i class="far fa-heart"></i></a></li>
+                    <li><a href=""><i class="far fa-eye"></i></a></li>
+                    <li><a href=""><i class="fas fa-sync-alt"></i></a></li>
+                  </ul>
+                  <a href="single-category.html">Variable Product</a>
+                  <p><span>$ 90.00</span> $ 78.00</p>
+                  <div class="add-btn"><a href="single-category.html"><i class="fas fa-arrow-right"></i></a></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Product Area HTML End -->
+
+        <!-- Testimonial Slider HTML Start -->
+        <div class="container">
+            <div class="testimonial-slider">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="items">
+                            <img src="assets/image/testimonial-1.jpg"  alt="...">
+                            <div class="text">
+                                <i class="fas fa-quote-left"></i>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita blanditiis at eum reiciendis non vitae, quo magni fuga tempore quod enim magnam architecto amet rem ducimus, exercitationem cumque animi perspiciatis ad dolores neque perferendis Eum iusto optio dolor maxime quidem.</p>
+                                <h6>- William Genske</h6>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="items">
+                            <img src="assets/image/testimonial-1.jpg"  alt="...">
+                            <div class="text">
+                                <i class="fas fa-quote-left"></i>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita blanditiis at eum reiciendis non vitae, quo magni fuga tempore quod enim magnam architecto amet rem ducimus, exercitationem cumque animi perspiciatis ad dolores neque perferendis Eum iusto optio dolor maxime quidem.</p>
+                                <h6>- William Genske</h6>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="items">
+                            <img src="assets/image/testimonial-1.jpg"  alt="...">
+                            <div class="text">
+                                <i class="fas fa-quote-left"></i>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita blanditiis at eum reiciendis non vitae, quo magni fuga tempore quod enim magnam architecto amet rem ducimus, exercitationem cumque animi perspiciatis ad dolores neque perferendis Eum iusto optio dolor maxime quidem.</p>
+                                <h6>- William Genske</h6>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial Slider HTML End -->
+      
+        <!-- Latest News HTML Start -->
+        <section class="letest-news-area section-padding">
+            <div class="container">
+                <div class="section-title">
+                    <h3>Latest News</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-news">
+                            <img src="assets/image/blog-1.jpg" alt="Blog">
+                            <div class="text">
+                                <a class="title" href="single-blog.html">Simply Tips For Beauty</a>
+                                <h6>Posted by <span>admin - 2 comments</span></h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Neque officia.</p>
+                                <a class="read-btn" href="single-blog.html">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-news">
+                            <img src="assets/image/blog-2.jpg" alt="Blog">
+                            <div class="text">
+                                <a class="title" href="single-blog.html">Simply Tips For Beauty</a>
+                                <h6>Posted by <span>admin - 2 comments</span></h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Neque officia.</p>
+                                <a class="read-btn" href="single-blog.html">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-news">
+                            <img src="assets/image/blog-3.jpg" alt="Blog">
+                            <div class="text">
+                                <a class="title" href="single-blog.html">Simply Tips For Beauty</a>
+                                <h6>Posted by <span>admin - 2 comments</span></h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Neque officia.</p>
+                                <a class="read-btn" href="single-blog.html">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Latest News HTML End -->
+
+        <!-- Follow Area HTML Start -->
+        <section class="follow-area section-padding">
+            <div class="container">
+                <div class="follow-text">
+                    <h2>Follow Our Updates!</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Impedit qui cupiditate vel harum suscipit necessitatibus</p>
+                    <form>
+                        <input type="text" placeholder="Enter Your Email">
+                        <button>Search</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Follow Area HTML End -->
+
+        <!-- Delivery Area HTML Start -->
+        <section class="delivery-area section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <a href="#" class="single-item border-end">
+                            <i class="fas fa-truck"></i>
+                            <div class="text">
+                                <h4>Free Delivery</h4>
+                                <h5>Worldwide</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <a href="#" class="single-item border-end">
+                            <i class="fas fa-headset"></i>
+                            <div class="text">
+                                <h4>24/7 Support</h4>
+                                <h5>Customer Support</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <a href="#" class="single-item border-end">
+                            <i class="fab fa-cc-mastercard"></i>
+                            <div class="text">
+                                <h4>Payment</h4>
+                                <h5>Secure System</h5>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <a href="#" class="single-item border-end">
+                            <i class="fas fa-trophy"></i>
+                            <div class="text">
+                                <h4>Trusted</h4>
+                                <h5>Enuine Products</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Delivery Area HTML End -->
+
+        <!-- Footer Section HTML Start -->
+        <footer class="footer-two-section section-padding">
+            <div class="container">
+              <div class="footer-area">
+                <div class="row">
+                  <div class="col-lg-3 col-md-6">
+                      <div class="single-item">
+                          <div class="title"><h3>About Us</h3></div>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptatibus voluptatem quas fugiat ut minus dignissimos officiis molestiae ex quis eveniet blanditiis illum hic.</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="single-item">
+                      <div class="title"><h3>Contact Details</h3></div>
+                      <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Contact Us</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="single-item">
+                      <div class="title"><h3>Company</h3></div>
+                      <ul>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="blog.html">News</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div class="single-item">
+                      <div class="title"><h3>Contact Details</h3></div>
+                      <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 162 5th Ave, New York, NY 1010, United States</li>
+                        <li><i class="far fa-envelope"></i> hello@noke.com</li>
+                        <li><i class="fas fa-phone-alt"></i> (+44) - 45789 - 5789</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </footer>
+        <!-- Footer Section HTML End -->
+
+        <!-- Copyright Section HTML Start -->
+        <section class="copyright-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="left-item text-start">
+                            <p>Copyright @ 2021. All Right Reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="right-item text-end">
+                            <ul>
+                                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href=""><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Copyright Section HTML End -->
+
+      </div>
+    </div>
+    <!-- Content Wrapper HTML End -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="assets/js/jquery-2.2.4.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/all.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/main.js"></script>
+
+  </body>
+</html>
